@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "online.dgbcraft.carpet.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "carpet.CarpetServerMixin",
+    "permissionLevelSeed.SeedCommandMixin",
+    "sleepIgnoreFaker.ServerWorldMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

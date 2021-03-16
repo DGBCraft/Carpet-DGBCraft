@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "carpet-dgbcraft",
+  "version": "${version}",
+
+  "name": "Carpet-DGBCraft",
+  "description": "An extension of Carpet Mod for DGBCraft Server",
+  "authors": [
+    "Sanluli36li"
+  ],
+  "contact": {
+    "homepage": "https://dgbcraft.online/",
+    "sources": "https://github.com/DGBCraft/Carpet-DGBCraft"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/carpet-dgbcraft/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+    ]
+  },
+  "mixins": [
+    "carpet-dgbcraft.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "minecraft": "1.16.x",
+    "carpet": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  },
+  "custom": {
+    "modmenu:parent": "carpet"
+  }
+}
