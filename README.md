@@ -21,6 +21,6 @@ Ignore fake players when skipping the night by sleeping
 * Categories: `SURVIVAL`
 
 # Development
-Current main development branch: **1.16.x**
+Current main development branch: **1.16.x**  
 Current maintaining branches:
 - 1.16.x for Minecraft 1.16.2 to 1.16.5
