@@ -1,6 +1,6 @@
 # Carpet-DGBCraft
 
-[中文版](README_zhCN.md)
+[>>中文版<<](README_zhCN.md)
 
 # Features
 
@@ -35,3 +35,7 @@ Ignore fake players when skipping the night by sleeping
 * Required options: `true`, `false`
 * Categories: `SURVIVAL`, `FAKE`
 
+# Development
+Current main development branch: **1.16.x**  
+Current maintaining branches:
+- 1.16.x for Minecraft 1.16.2 to 1.16.5
