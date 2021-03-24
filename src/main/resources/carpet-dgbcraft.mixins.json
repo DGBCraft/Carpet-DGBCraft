@@ -5,6 +5,7 @@
   "compatibilityLevel": "JAVA_8",
   "mixins": [
     "carpet.CarpetServerMixin",
+    "fakePlayerNameLimit.PlayerCommandMixin",
     "permissionLevelSeed.SeedCommandMixin",
     "sleepIgnoreFaker.ServerWorldMixin"
   ],
