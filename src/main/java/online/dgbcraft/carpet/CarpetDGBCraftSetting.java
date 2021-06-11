@@ -8,12 +8,16 @@ import static carpet.settings.RuleCategory.SURVIVAL;
 
 public class CarpetDGBCraftSetting {
 
+    // Since gnembon has added a judgment to the carpet,
+    // it should no longer be unable to enter the service because of calling a faker with a long name.
+    /*
     @Rule(
         desc = "Prevent players from using /player to summon fake player whose name length exceeds the limit",
         extra = "Resolve the problem that the server cannot be accessed after the player summons a dummy with a name longer than 16 through restrictions",
         category = {BUGFIX, "Fake"}
     )
     public static int fakePlayerNameLengthLimit = 16;
+     */
 
     public static final String FAKE_PLAYER_NAME_NO_PREFIX = "#none";
 

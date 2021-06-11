@@ -21,7 +21,7 @@ public class SleepManagerMixin {
             ),
             allow = 1
     )
-    private static boolean isSpectatorOrFakeOnTickCheck(ServerPlayerEntity player) {
+    private boolean isSpectatorOrFakeOnTickCheck(ServerPlayerEntity player) {
         if (CarpetDGBCraftSetting.sleepIgnoreFaker) {
             return player instanceof EntityPlayerMPFake || player.isSpectator();
         } else {
