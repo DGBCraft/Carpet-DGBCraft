@@ -7,7 +7,7 @@
     "carpet.CarpetServerMixin",
     "fakePlayerNameLimit.PlayerCommandMixin",
     "permissionLevelSeed.SeedCommandMixin",
-    "sleepIgnoreFaker.ServerWorldMixin"
+    "sleepIgnoreFaker.SleepManagerMixin"
   ],
   "client": [
   ],
