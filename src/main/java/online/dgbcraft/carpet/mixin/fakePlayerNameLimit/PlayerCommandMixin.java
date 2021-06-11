@@ -32,15 +32,4 @@ public class PlayerCommandMixin {
             }
         }
     }
-
-    @ModifyConstant(
-        method = "spawn",
-        constant = @Constant(intValue = 40),
-        require = 1,
-        remap = false
-    )
-    private static int nameLengthLimit(int value)
-    {
-        return CarpetDGBCraftSetting.fakePlayerNameLengthLimit;
-    }
 }
